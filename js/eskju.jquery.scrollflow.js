@@ -90,7 +90,7 @@
 			winHeight = $( window ).height();
 			scrollTop = $( window ).scrollTop();
 			
-			$( ".parallax" ).each( function( key, obj )
+			$( ".scrollflow" ).each( function( key, obj )
 			{
 				objOffset = $( obj ).offset();
 				objOffsetTop = parseInt( objOffset.top );
