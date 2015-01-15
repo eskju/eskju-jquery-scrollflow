@@ -1,0 +1,111 @@
+
+	html, body
+	{
+		height: 100%;
+	}
+
+	body
+	{
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 20px;
+		margin: 0px;
+		-webkit-overflow-scrolling: none;
+	}
+	
+	section
+	{
+		margin: 0px;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	section article
+	{
+		width: 500px;
+		margin: 0 auto;
+		padding: 150px 0px 150px 0px;
+		max-width: 80%;
+		text-align: center;
+	}
+	
+	section article h1,
+	section article h2,
+	section article h3
+	{
+		font-weight: 200;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	
+	section article strong
+	{
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+	
+	section article a
+	{
+		color: #fff;
+	}
+	
+	section article div
+	{
+		font-size: 100px;
+		line-height: 100px;
+	}
+	
+	section:first-child,
+	section:last-child
+	{
+		background-color: #99bbbf;
+		color: #fff;
+		min-height: 100%;
+	}
+	
+	section:first-child article,
+	section:last-child article
+	{
+		position: absolute;
+		top: 50%;
+		width: 80%; 
+		max-width: 80%;
+		margin-left: 10%; 
+		margin-top: -274px;
+	}
+
+	section:nth-child(2)
+	{
+		background-color: #D27459;
+		color: #fff;
+	}
+	
+	section:nth-child(3)
+	{
+		background-color: #f2f2f0;
+	}
+	
+	section:nth-child(4)
+	{
+		background-color: #fff;
+	}
+	
+	section:nth-child(5) h2
+	{
+		color: #fff;
+		text-shadow: 1px 1px 3px rgba( 0, 0, 0, 0.25 );
+		font-weight: 400;
+	}
+	
+	section:nth-child(5) div
+	{
+		position: absolute;
+		top: -25%;
+		left: 0px;
+		height: 150%;
+		width: 150%;
+		background-image: url("demo1.jpg");
+		background-size: 100% 100%;
+	}

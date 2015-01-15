@@ -1,0 +1,36 @@
+{
+    "name": "scrollflow",
+    "title": "esKju's ScrollFlow Plugin",
+    "description": "Enhance your website by fancy effects based on the user's scroll index. Pop-in, pop-out, sliding, sticky notes and much more. The plugin supports mobile devices and eldered browsers.",
+    "keywords": [
+        "index",
+        "directory",
+        "contents",
+        "table"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Chris Witte",
+        "url": "https://www.facebook.com/chris.witte.design"
+    },
+    "maintainers": [
+        {
+            "name": "Chris Witte",
+            "email": "jquery@cwdesigns.de",
+            "url": "http://www.cwdesigns.de"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/eskju/eskju-jquery-scrollflow/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/eskju/eskju-jquery-scrollflow/issues",
+    "homepage": "http://www.cwdesigns.de/eskju-jquery-scrollflow.html",
+    "docs": "http://www.cwdesigns.de/eskju-jquery-scrollflow.html",
+    "download": "https://github.com/eskju/eskju-jquery-scrollflow",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
